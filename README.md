@@ -71,6 +71,7 @@ The Notes Sharing REST API is a scalable Spring Boot REST API service designed f
     Request Body (update fields as needed):
     ```json
     {
+      "id":1,
       "title": "Updated Note Title",
       "contentUrl": "This is updated sample note.",
       "contentType": "PDF",
