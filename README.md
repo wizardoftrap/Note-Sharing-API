@@ -7,7 +7,7 @@ The Notes Sharing REST API is a scalable Spring Boot REST API service designed f
 ## Key Features
 
 - **CRUD Operations:** Create, read, update, and delete notes.
-- **Format Support:** Share notes in PDF, video, and web link formats.
+- **Format Support:** Share notes in PDF, video, and web link formats using url.
 - **Advanced Search:** Search notes by title, department, field, or owner.
 - **Scalable Architecture:** Designed for scalability and performance.
 
@@ -43,7 +43,7 @@ The Notes Sharing REST API is a scalable Spring Boot REST API service designed f
     ```http
     GET /api/notes/title/{title}
     ```
-  - **Get Note by Field**
+- **Get Note by Field**
     ```http
     GET /api/notes/field/{field}
     ```
