@@ -85,3 +85,8 @@ The Notes Sharing REST API is a scalable Spring Boot REST API service designed f
     ```http
     DELETE /api/notes/delete/{id}
     ```
+## Contact Information
+
+- **Developer**: Shiv Prakash Verma
+- **Email**: shivprakashlps@gmail.com
+- **College**: IIT Ropar
